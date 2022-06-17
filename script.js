@@ -24,7 +24,5 @@ buttons.forEach(button => {
             newIndex = 4;
             img.src = "gallery/" + newIndex + extension;
         }
-
-        console.log(newIndex);
     })
 })

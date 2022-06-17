@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.carousel {
+    border: 3px solid aqua;
+    position: relative;
+}
+
+img {
+    width: 99.7vw;
+    height: 80vh;
+}
+
+.carousel-button {
+    font-size: 4rem;
+    position: absolute;
+    top: 40%;
+    left: 19%;
+}
+
+.carousel-button.prev {
+    position: absolute;
+    left: 1%;
+}
+
+.carousel-button.next {
+    position: absolute;
+    margin-left: 75%;
+    width: 5%;
+}
